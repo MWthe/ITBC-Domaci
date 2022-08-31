@@ -1,0 +1,24 @@
+1. Objasniti sledece pojmove iz OOP paradigime:
+a) Enkapsulacija:
+    - Enkapsulacija koda predstavlja zastitu koda uz pomoc kljucnih reci private, public. Svrha enkapsulacije
+    je da  sakrije slozenost programa. Privatnim metodama/promenjivim moze da pristupi samo klasa u kojoj se nalaze,
+    i njima moze da se pristupi samo preko javnih (public) metoda te klase.
+b) Polimorfizam:
+    - Polimorfizam predstavlja koncept opste metode koja se moze koristiti na vise nacina, tj metoda dobija oblik
+    koji nam treba za odredjenu klasu. Kao npr. zadatak koji smo radili na casu Oblici i racunanje njihove povrsine,
+    Oblici je opsti oblik koji ima metodu getArea tj izracunavanje povrsine. getArea je definisana u opstoj klasi Oblici
+    i u zavisnosti od toga koja klasa ga nasledjuje (Square, Rectangle,Circle..) metoda getArea dobija oblik koji smo
+    mi definisali u klasi Sqaure, Rectangle.. Java sama prepoznaje koji oblik te iste motede treba da upotrebi u odnosu
+    na to kako je mi pozivamo.
+c) Nasledjivanje:
+    - Nalsedjivanje predstavlja koncept u kojem objekat preuzima atribute, metode nekog drugog objekta, tj nasledjuje ih.
+    Child klasa nasledjuje sve atribute i metode Parent klase uz to da se moraju definisati i novi atributi ili nove \
+    metode koje tu klasu cine jedinstvenim inace ovaj koncept nema smisla. Nasledjivanje omogucava da jedan objekat bude
+    poseban oblik drugog objekta ili jedna klasa da bude poseban oblik druge klase.
+
+2. Objasniti listu kao strukturu podataka, i napisati sve razlike izmedju ArrayList i LinkedList
+    - Lista je dinamicna struktura podataka tj dozvoljeno je dodavanje i uklanjanje elemenata iz nje, nemaju konacnu velicinu
+    pa su dosta lakse za rad od obicnih nizova. Razlika izmedju ArrayList i LinkedList je u strukturi, ArrayList kao osnovu
+    koristi obican niz, kada nema dovoljno mesta u ArrayList pravi se novi veci niz svi elementi se smestaju u njega,
+    a stari niz se brise. Oni imaju pokazivace samo u jednom pravcu 1 --> 2 --> 3. LinkedList-a ima sve iste komande i metode kao i
+    ArrayList samo sto one imaju pokazivace u oba pravca npr. 1 <==> 2 <==> 3 i td.
